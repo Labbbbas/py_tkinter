@@ -1,0 +1,24 @@
+ B-árbol es un árbol de búsqueda que puede estar vacío o aquel cuyos nodos pueden tener varios hijos, existiendo una relación de orden entre ellos.
+Cuando el rendimiento en la velocidad del acceso a datos es un problema, los arboles B son recomendados a los árboles binarios normales
+La idea tras los árboles-B es que los nodos internos deben tener un número variable de nodos hijo dentro de un rango predefinido. Cuando se inserta o se elimina un dato de la estructura, la cantidad de nodos hijo varía dentro de un nodo.
+Un árbol-B de orden M (el máximo número de hijos que puede tener cada nodo) es un árbol que satisface las siguientes propiedades:
+Cada nodo tiene como máximo M hijos.
+Cada nodo (excepto raíz) tiene como mínimo (M)/2 claves.
+La raíz tiene al menos 1 hijos si no es un nodo hoja. (según M)
+Todos los nodos hoja aparecen al mismo nivel.
+Un nodo no hoja con k hijos contiene k-1 elementos almacenados.
+Los hijos que cuelgan de la raíz (r1, ···, rm) tienen que cumplir ciertas condiciones:
+El primero tiene valor menor que r1.
+El segundo tiene valor mayor que r1 y menor que r2, etc.
+El último hijo tiene valor mayor que rm.
+
+Las operaciones que se presentan un Árbol B:
+Insertar: Acción a través de la cual se pueden insertar nuevos elementos en la
+estructura de datos. Se presenta un diálogo para la introducción del nuevo valor.
+Borrar: Si se desea borrar un nodo se debe seleccionar dicho nodo y pulsar el
+botón Borrar.
+Vaciar árbol: Esta acción elimina todos los elementos presentes en la lista.
+Cambiar tamaño página: A través de esta opción se puede configurar el tamaño
+de las páginas del árbol.
+Camino recorrido: En este lugar se muestran los diferentes nodos por los que fue
+pasando (con los que se comparó), el elemento insertado o eliminado.
